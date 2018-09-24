@@ -1,0 +1,113 @@
+Welcome. I'm Bob Sedgwick, professor of
+computer science at Princeton. This is our online course,
+Algorithms, developed by myself and Kevin Wayne here at Princeton. We're going to start with an overview, a discussion of why you might want to
+study algorithms, and then a little bit of discussion about the resources
+that you need to take this course. So what is this course? It's an intermediate level
+survey course on algorithms. We're going to concentrate
+on programming and problem solving in the context
+of real applications. And our focus is going to be on two
+things, algorithms which are methods for solving problems, and data structures
+which store the information associated with the problem and
+go hands and hands with algorithms. [COUGH] These are the basic topics
+that we'll cover in part one and part two of the course. The first part is data types sorting and
+searching. We'll consider a number of data
+structures and algorithms that are basic to all the methods we consider including
+stacks, queues, bags, and priority queues. Then, we'll consider classic algorithms
+for sorting, putting things in order. That's quick sort, merge sort,
+heat sort, and rated sorts. And we'll consider classic methods for
+searching, including binary search trees, red-black binary search trees,
+and hash tables. The second part of the course is for
+more advanced algorithms, including graph algorithms,
+classic graph searching algorithms, minimum spanning tree, and algorithms. Algorithms for processing strings
+including regular expressions and data compression. And then, some advanced algorithms that make use of the basic algorithms that
+we developed earlier in the course. So why should one study algorithms? Well, their impact is very broad and
+far reaching. From the Internet to biology,
+to commercial computing, to computer graphics, security, multimedia, cellphone
+networks and scientific applications. Algorithms are all around us. They're use for movies and video games,
+for particle collision simulation. They're used to study the genome and
+all manner of other applications. So that's one important reason to study
+algorithms, there impact is broad and far reach. Algorithms are also interesting to
+study because they have ancient roots. Now, the first algorithm we study goes
+back to 300 BC dating at least to Euclid. The concept of an algorithm
+was formalized, actually here at Princeton by Church and
+Turing in the 1930s, but most algorithms that we consider
+were discovered in recent decades. In fact, some were discovered by
+undergraduates in a course like this. In these plenty of other algorithms
+waiting to be discovered by students like you. The main reason that people study
+algorithms is to be able to solve problems that could not otherwise be address. For example, on the first lecture, we're going to talk
+about the network connectivity problem. Where the problem is given a large
+set of items that are connected together pair wise. Is there a way to get from one to another
+with a path through the connection. As you can see from this example, it's not
+clear whether or not there's such a path. We need the computer program to do it. In fact,
+we need an efficient algorithm to do it. In this case,
+the answer is that there is such a path. Another reason to study algorithms is for
+intellectual stimulation. Algorithms are very
+interesting object to study. Don Knuth, who wrote several books on
+algorithms and was a pioneer in the field, said that,
+an algorithm must be seen to be believed. You can't just think about an algorithm,
+you have to work with it. Another quote from Francis Sullivan says, the great algorithms
+are the poetry of computation. Just like verse, they can be terse,
+allusive, dense and even mysterious. But once unlocked they cast a brilliant
+new light on some aspect of computing. Algorithms are interesting for
+intellectual stimulation. Another reason many people
+study algorithms and I suspect many of you is it's necessary
+to understand good algorithms, efficient algorithms and data structures
+in order to be an efficient programmer. Linus Torvalds who created Linux says
+that the difference between a bad programmer and a good one is
+whether he considers his code or his data structures more important. Bad programmers worry about the code. Good programmers worry about data
+structures and their relationships. And I might add the algorithms
+to process them. Niklaus Wirth,
+another pioneer in computer science, wrote a famous book called Algorithms
++ Data Structures = Programs. [COUGH] Another reason,
+nowadays, to study algorithms, is that they have become a common
+language for understanding nature, algorithms are computational models and
+algorithmic models are replacing mathematical models and
+scientific inquiry. In the 20th century,
+scientist develop mathematical models to try to understand natural phenomenon,
+it soon became clear that those mathematical
+models were difficult to solve. It was difficult to create solutions to be able to test hypotheses
+against natural phenomena. So more and more and more, nowadays, people are developing computational
+models, where they attempt to simulate what might be happening in nature
+in order to try to better understand it. Algorithms play extremely
+important role this process and you'll see some of these in this course. Another important reason is that, if you known how to effectively
+use algorithms in data structures, you're going to have a much
+better chance at interviewing for a job in the technology
+industry than if you don't. Here's a bunch of reasons that I just
+went through for studying algorithms. Their impact's broad and far reaching. They have old roots and
+present new opportunities. That allows to solve problems that
+could not otherwise be addressed. You can use them for intellectual stimulation to
+become a proficient programmer. They might unlock the secrets of life
+in the universe and they're good for fun and profit. In fact, a programmer might ask,
+why study anything else? Well, there's plenty of good
+reasons to study other things, but I'll submit there's no good
+reason not to study algorithms. [COUGH] So for this course we have two
+resources that I want to talk about and make sure that people are familiar
+with before entering into the content. This is a publishing model that Kevin,
+Wayne, and I developed and have been using for many years. And we think it's a very effective
+way to support the kinds of lectures that we're going to
+be giving in this course. Down at the bottom ant it's optional for
+this course, we have a textbook, it's a traditional textbook that extensively
+covered the topic in the course. In fact, many more topics then
+we can present in lecture. And then,
+supporting that textbook is free, online material that
+we call the book site. You can go to the book site
+to see the lecture slides. But more important,
+there's code, there's exercises, there's a great deal of information there. In fact, maybe ten times, what's in the
+book, including a summary of the content. So during this course you'll
+be referring to the book site frequently while working online. People often ask about prerequisites. We're assuming that people who take
+this course know how to program. You know the basics of loops,
+arrays, functions. They have some exposure to object
+oriented programming and recursion. We use the Java language, but
+we don't dwell on details of Java. We mostly use it as
+an expository language. We do some Math but not advanced Math. If you want to review the material that
+we think is prerequisite to the material in this course, you can do a quick
+review by looking at sections 1.1 and 1.2 of the book, either at
+the book site or in the textbook. If you want an in depth review
+we have a full textbook called an introduction to programming
+in Java, an interdisciplinary approach. Others of booksite and a textbook as well. But the bottom line is you
+should be able to program and the quick exercise to get ready use to
+write a Java program on your computer perhaps using our programming
+model as describe on the bookside. We'll provide much more
+detailed information on that as we get into assignments. You can use your own programming
+environment if you're comfortable with one, or you can download ours. We have instructions on
+the web about how to do that.
